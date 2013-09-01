@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960263931566208900D33545 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960263921566208900D33545 /* MainStoryboard.storyboard */; };
+		9640D30B157063DE006717E8 /* Alert chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9640D30A157063DE006717E8 /* Alert chime.mp3 */; };
+		9691785F1560DE1100A51FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9691785E1560DE1100A51FC2 /* UIKit.framework */; };
+		969178611560DE1100A51FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969178601560DE1100A51FC2 /* Foundation.framework */; };
+		969178631560DE1100A51FC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969178621560DE1100A51FC2 /* CoreGraphics.framework */; };
+		969178691560DE1100A51FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 969178671560DE1100A51FC2 /* InfoPlist.strings */; };
+		9691786B1560DE1100A51FC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691786A1560DE1100A51FC2 /* main.m */; };
+		9691786F1560DE1100A51FC2 /* TimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691786E1560DE1100A51FC2 /* TimerAppDelegate.m */; };
+		969178751560DE1100A51FC2 /* TimerMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969178741560DE1100A51FC2 /* TimerMainViewController.m */; };
+		969178781560DE1100A51FC2 /* TimerFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969178771560DE1100A51FC2 /* TimerFlipsideViewController.m */; };
+		969178801560DE1100A51FC2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9691787F1560DE1100A51FC2 /* SenTestingKit.framework */; };
+		969178811560DE1100A51FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9691785E1560DE1100A51FC2 /* UIKit.framework */; };
+		969178821560DE1100A51FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969178601560DE1100A51FC2 /* Foundation.framework */; };
+		9691788A1560DE1100A51FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 969178881560DE1100A51FC2 /* InfoPlist.strings */; };
+		9691788D1560DE1100A51FC2 /* TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691788C1560DE1100A51FC2 /* TimerTests.m */; };
+		969C5E59156E0F1F0099BF87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C5E58156E0F1F0099BF87 /* AVFoundation.framework */; };
+		96C42E5215710518003F3A5D /* Timer icon 57p.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C42E5115710518003F3A5D /* Timer icon 57p.png */; };
+		96C42E5415710523003F3A5D /* Timer icon 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C42E5315710523003F3A5D /* Timer icon 114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		969178831560DE1100A51FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969178511560DE1100A51FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969178591560DE1100A51FC2;
+			remoteInfo = Timer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960263921566208900D33545 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9640D30A157063DE006717E8 /* Alert chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alert chime.mp3"; sourceTree = "<group>"; };
+		966ECB41157082F500E493AA /* TimerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerAppDelegate.h; sourceTree = "<group>"; };
+		9691785A1560DE1100A51FC2 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9691785E1560DE1100A51FC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		969178601560DE1100A51FC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		969178621560DE1100A51FC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		969178661560DE1100A51FC2 /* Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timer-Info.plist"; sourceTree = "<group>"; };
+		969178681560DE1100A51FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9691786A1560DE1100A51FC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9691786C1560DE1100A51FC2 /* Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timer-Prefix.pch"; sourceTree = "<group>"; };
+		9691786E1560DE1100A51FC2 /* TimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerAppDelegate.m; sourceTree = "<group>"; };
+		969178731560DE1100A51FC2 /* TimerMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerMainViewController.h; sourceTree = "<group>"; };
+		969178741560DE1100A51FC2 /* TimerMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerMainViewController.m; sourceTree = "<group>"; };
+		969178761560DE1100A51FC2 /* TimerFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerFlipsideViewController.h; sourceTree = "<group>"; };
+		969178771560DE1100A51FC2 /* TimerFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerFlipsideViewController.m; sourceTree = "<group>"; };
+		9691787E1560DE1100A51FC2 /* TimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9691787F1560DE1100A51FC2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		969178871560DE1100A51FC2 /* TimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerTests-Info.plist"; sourceTree = "<group>"; };
+		969178891560DE1100A51FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9691788B1560DE1100A51FC2 /* TimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTests.h; sourceTree = "<group>"; };
+		9691788C1560DE1100A51FC2 /* TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTests.m; sourceTree = "<group>"; };
+		9691792615612E1E00A51FC2 /* Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Timer.entitlements; sourceTree = "<group>"; };
+		969C5E58156E0F1F0099BF87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		96C42E5115710518003F3A5D /* Timer icon 57p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timer icon 57p.png"; sourceTree = "<group>"; };
+		96C42E5315710523003F3A5D /* Timer icon 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timer icon 114.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969178571560DE1100A51FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969C5E59156E0F1F0099BF87 /* AVFoundation.framework in Frameworks */,
+				9691785F1560DE1100A51FC2 /* UIKit.framework in Frameworks */,
+				969178611560DE1100A51FC2 /* Foundation.framework in Frameworks */,
+				969178631560DE1100A51FC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9691787A1560DE1100A51FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969178801560DE1100A51FC2 /* SenTestingKit.framework in Frameworks */,
+				969178811560DE1100A51FC2 /* UIKit.framework in Frameworks */,
+				969178821560DE1100A51FC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9691784F1560DE1100A51FC2 = {
+			isa = PBXGroup;
+			children = (
+				96C42E5315710523003F3A5D /* Timer icon 114.png */,
+				96C42E5115710518003F3A5D /* Timer icon 57p.png */,
+				969178641560DE1100A51FC2 /* Timer */,
+				969178851560DE1100A51FC2 /* TimerTests */,
+				9691785D1560DE1100A51FC2 /* Frameworks */,
+				9691785B1560DE1100A51FC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9691785B1560DE1100A51FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9691785A1560DE1100A51FC2 /* Timer.app */,
+				9691787E1560DE1100A51FC2 /* TimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9691785D1560DE1100A51FC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				969C5E58156E0F1F0099BF87 /* AVFoundation.framework */,
+				9691785E1560DE1100A51FC2 /* UIKit.framework */,
+				969178601560DE1100A51FC2 /* Foundation.framework */,
+				969178621560DE1100A51FC2 /* CoreGraphics.framework */,
+				9691787F1560DE1100A51FC2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		969178641560DE1100A51FC2 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				966ECB41157082F500E493AA /* TimerAppDelegate.h */,
+				9691786E1560DE1100A51FC2 /* TimerAppDelegate.m */,
+				9640D30A157063DE006717E8 /* Alert chime.mp3 */,
+				960263921566208900D33545 /* MainStoryboard.storyboard */,
+				9691792615612E1E00A51FC2 /* Timer.entitlements */,
+				969178731560DE1100A51FC2 /* TimerMainViewController.h */,
+				969178741560DE1100A51FC2 /* TimerMainViewController.m */,
+				969178761560DE1100A51FC2 /* TimerFlipsideViewController.h */,
+				969178771560DE1100A51FC2 /* TimerFlipsideViewController.m */,
+				969178651560DE1100A51FC2 /* Supporting Files */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		969178651560DE1100A51FC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				969178661560DE1100A51FC2 /* Timer-Info.plist */,
+				969178671560DE1100A51FC2 /* InfoPlist.strings */,
+				9691786A1560DE1100A51FC2 /* main.m */,
+				9691786C1560DE1100A51FC2 /* Timer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		969178851560DE1100A51FC2 /* TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9691788B1560DE1100A51FC2 /* TimerTests.h */,
+				9691788C1560DE1100A51FC2 /* TimerTests.m */,
+				969178861560DE1100A51FC2 /* Supporting Files */,
+			);
+			path = TimerTests;
+			sourceTree = "<group>";
+		};
+		969178861560DE1100A51FC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				969178871560DE1100A51FC2 /* TimerTests-Info.plist */,
+				969178881560DE1100A51FC2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969178591560DE1100A51FC2 /* Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969178901560DE1100A51FC2 /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildPhases = (
+				969178561560DE1100A51FC2 /* Sources */,
+				969178571560DE1100A51FC2 /* Frameworks */,
+				969178581560DE1100A51FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timer;
+			productName = Timer;
+			productReference = 9691785A1560DE1100A51FC2 /* Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9691787D1560DE1100A51FC2 /* TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969178931560DE1100A51FC2 /* Build configuration list for PBXNativeTarget "TimerTests" */;
+			buildPhases = (
+				969178791560DE1100A51FC2 /* Sources */,
+				9691787A1560DE1100A51FC2 /* Frameworks */,
+				9691787B1560DE1100A51FC2 /* Resources */,
+				9691787C1560DE1100A51FC2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969178841560DE1100A51FC2 /* PBXTargetDependency */,
+			);
+			name = TimerTests;
+			productName = TimerTests;
+			productReference = 9691787E1560DE1100A51FC2 /* TimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969178511560DE1100A51FC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Timer;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 969178541560DE1100A51FC2 /* Build configuration list for PBXProject "Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9691784F1560DE1100A51FC2;
+			productRefGroup = 9691785B1560DE1100A51FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969178591560DE1100A51FC2 /* Timer */,
+				9691787D1560DE1100A51FC2 /* TimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969178581560DE1100A51FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969178691560DE1100A51FC2 /* InfoPlist.strings in Resources */,
+				960263931566208900D33545 /* MainStoryboard.storyboard in Resources */,
+				9640D30B157063DE006717E8 /* Alert chime.mp3 in Resources */,
+				96C42E5215710518003F3A5D /* Timer icon 57p.png in Resources */,
+				96C42E5415710523003F3A5D /* Timer icon 114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9691787B1560DE1100A51FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9691788A1560DE1100A51FC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9691787C1560DE1100A51FC2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		969178561560DE1100A51FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9691786B1560DE1100A51FC2 /* main.m in Sources */,
+				9691786F1560DE1100A51FC2 /* TimerAppDelegate.m in Sources */,
+				969178751560DE1100A51FC2 /* TimerMainViewController.m in Sources */,
+				969178781560DE1100A51FC2 /* TimerFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969178791560DE1100A51FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9691788D1560DE1100A51FC2 /* TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		969178841560DE1100A51FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 969178591560DE1100A51FC2 /* Timer */;
+			targetProxy = 969178831560DE1100A51FC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		969178671560DE1100A51FC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969178681560DE1100A51FC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		969178881560DE1100A51FC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969178891560DE1100A51FC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9691788E1560DE1100A51FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9691788F1560DE1100A51FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		969178911560DE1100A51FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				INFOPLIST_FILE = "Timer/Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		969178921560DE1100A51FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				INFOPLIST_FILE = "Timer/Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		969178941560DE1100A51FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timer.app/Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				INFOPLIST_FILE = "TimerTests/TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		969178951560DE1100A51FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timer.app/Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				INFOPLIST_FILE = "TimerTests/TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		969178541560DE1100A51FC2 /* Build configuration list for PBXProject "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9691788E1560DE1100A51FC2 /* Debug */,
+				9691788F1560DE1100A51FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969178901560DE1100A51FC2 /* Build configuration list for PBXNativeTarget "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969178911560DE1100A51FC2 /* Debug */,
+				969178921560DE1100A51FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969178931560DE1100A51FC2 /* Build configuration list for PBXNativeTarget "TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969178941560DE1100A51FC2 /* Debug */,
+				969178951560DE1100A51FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 969178511560DE1100A51FC2 /* Project object */;
+}
