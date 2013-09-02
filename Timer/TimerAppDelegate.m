@@ -3,8 +3,26 @@
 //  Timer
 //
 //  Created by Sebastian Brown on 14/05/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+/*
+█▀▀▀▀▀█ █  ▄▄▄▀▀█ █▀▀▀▀▀█
+█ ███ █ ██▄ █▄▀ ▄ █ ███ █
+█ ▀▀▀ █ ▄██ ▀ ▀▀█ █ ▀▀▀ █
+▀▀▀▀▀▀▀ ▀ █▄▀ █ █ ▀▀▀▀▀▀▀
+██ ▄█▀▀ ▄ ▀ ▀▄ ▄▄  ▀▄█▀█▀
+ ████▄▀▀██▀ ▄▀▄▀▀▀▀█▀▀█▄ 
+█  ▄ ▀▀▄█ ▄▀█▄▄█ █▀▀▄▀▀█▀
+  ▀ █▄▀▄ ███  █▀█▄ ██▀█▄ 
+▀▀  ▀▀▀▀█  █▀▄▄ █▀▀▀█▀▀  
+█▀▀▀▀▀█ ▄ ▀█▄▀  █ ▀ █▄▄▄▄
+█ ███ █ ▀▄▀▄ ▄▄▄▀███▀▀█▄▄
+█ ▀▀▀ █ ▄▀▄██▀  ▀██▄▄█▄█ 
+▀▀▀▀▀▀▀ ▀   ▀  ▀  ▀   ▀▀▀
+Matthew 5:5
+Colossians 1:16
+Objective - C Just do it!
+
+*/
+//  Copyright (c) 2012 Sebastian Brown. All rights reserved.
 
 #import "TimerAppDelegate.h"
 
